@@ -15,6 +15,16 @@ div.header {
     width: 100%;
 }
 
+body {
+    font-family: 'IBM Plex Sans';
+    font-size: large;
+}
+
+.content {
+    margin-top: 100px;
+    /* Adjust this value to match the height of your header */
+}
+
 /* Navbar alligned top , float to right side of the page, and some margin */
 .navbar {
     font-family: 'IBM Plex Sans';
@@ -47,6 +57,14 @@ h1 {
     font-size: 4rem;
     letter-spacing: 0.02rem;
     color: #03161D;
+    line-height: 1;
+}
+
+h4 {
+    font-family: 'Roboto Condensed';
+    font-weight: 600;
+    color: #03161D;
+    line-height: 0.8;
 }
 
 
@@ -54,6 +72,7 @@ h3 {
     font-family: 'Roboto Condensed';
     font-weight: 300;
     color: #03161D;
+    line-height: 0.8;
 }
 
 /* button inside the navbar */
@@ -89,6 +108,14 @@ h3 {
     --bs-btn-disabled-border-color: #f8c0597;
     border-width: 2px;
     ;
+}
+
+.btn.btn-warning.submit {
+    font-family: "IBM Plex Sans";
+}
+
+.btn.btn-warning.reset {
+    font-family: "IBM Plex Sans";
 }
 
 

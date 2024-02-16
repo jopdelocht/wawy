@@ -133,10 +133,20 @@ h3 {
     height: 100vh;
 }
 
+
 img.wizard {
     width: 440px;
 }
 
 .linkje {
     text-decoration: none;
+}
+
+img.resultpicture {
+    width: 30rem;
+    border-radius: 2rem;
+}
+
+img.pijl {
+    width: 10rem;
 }

@@ -51,9 +51,9 @@
 
           <form action="submit.php" method="POST">
 
-            <h4>In wat voor omgeving werk of studeer je het liefst?</h4>
-            <input type="radio" name="environment" value="A"> Een drukke, sociale omgeving<br>
-            <input type="radio" name="environment" value="B"> Een rustige, geconcentreerde omgeving<br>
+            <h4>Wat vind je leuker? </h4>
+            <input type="radio" name="hobby" value="D"> Denkspelletjes<br>
+            <input type="radio" name="hobby" value="C"> Creatief bezig zijn<br>
             <br>
 
             <h4>Welke activiteiten doe je het liefst? </h4>
@@ -61,9 +61,19 @@
             <input type="radio" name="activity" value="A"> Actief en avontuurlijk<br>
             <br>
 
-            <h4>Wat doe je het liefst als je gestrest bent? </h4>
-            <input type="radio" name="stress" value="A"> Met iemand erover praten<br>
-            <input type="radio" name="stress" value="B"> Tijd alleen nemen om na te denken<br>
+            <h4>Waar vertrouw je meer op bij het nemen van een moeilijke beslissing?</h4>
+            <input type="radio" name="decision" value="C"> Je buikgevoel<br>
+            <input type="radio" name="decision" value="D"> Alle mogelijke uitkomsten, feiten, cijfers en data<br>
+            <br>
+
+            <h4>In wat voor omgeving werk of studeer je het liefst?</h4>
+            <input type="radio" name="environment" value="A"> Een drukke, sociale omgeving<br>
+            <input type="radio" name="environment" value="B"> Een rustige, geconcentreerde omgeving<br>
+            <br>
+
+            <h4>Betrap je jezelf erop dat je overdreven reageert of van streek raakt over onbenullige dingen?</h4>
+            <input type="radio" name="reaction" value="C"> Ja<br>
+            <input type="radio" name="reaction" value="D"> Nee<br>
             <br>
 
             <h4>Heb je liever een paar close vrienden of een groot netwerk van kennissen? </h4>
@@ -71,19 +81,9 @@
             <input type="radio" name="social" value="A"> Een groot netwerk van kennissen<br>
             <br>
 
-            <h4>Waar vertrouw je meer op bij het nemen van een moeilijke beslissing?</h4>
-            <input type="radio" name="decision" value="C"> Je buikgevoel<br>
-            <input type="radio" name="decision" value="D"> Alle mogelijke uitkomsten, feiten, cijfers en data<br>
-            <br>
-
-            <h4>Wat vind je leuker? </h4>
-            <input type="radio" name="hobby" value="D"> Denkspelletjes<br>
-            <input type="radio" name="hobby" value="C"> Creatief bezig zijn<br>
-            <br>
-
-            <h4>Betrap je jezelf erop dat je overdreven reageert of van streek raakt over onbenullige dingen?</h4>
-            <input type="radio" name="reaction" value="C"> Ja<br>
-            <input type="radio" name="reaction" value="D"> Nee<br>
+            <h4>Wat doe je het liefst als je gestrest bent? </h4>
+            <input type="radio" name="stress" value="A"> Met iemand erover praten<br>
+            <input type="radio" name="stress" value="B"> Tijd alleen nemen om na te denken<br>
             <br>
 
             <h4>Wat zou je liever zijn: </h4>
